@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        #contain {
+            width:800px;
+            margin:0 auto;
+            border:1px solid #cccccc;
+        }
+        #header {
+            height:50px;
+            background-color:#cccccc;
+        }
+        #wrap {
+            height:200px;
+            position:relative;
+        }
+        #content1 {
+            width:100px; height:100px;
+            background-color:red;
+            border:2px dashed green;
+            position:absolute;
+            top:10px; left:10px;
+            z-index:20;
+        }
+
+        #content2 {
+            width:100px; height:100px;
+            background-color:yellow;
+            border:2px dashed green;
+            position:absolute;
+            top:50px; left:50px;
+            z-index:10;
+        }
+        #footer {
+            height:50px;
+            background-color:#cccccc;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="contain">
+        <div id="header">HEADER</div>
+        <div id="wrap">
+            <div id="content1">content1</div>
+            <div id="content2">content2</div>
+        </div>
+        <div id="footer">FOOTER</div>
+    </div>
+</body>
+</html>

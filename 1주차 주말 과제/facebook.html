@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            margin:0;
+        }
+        header {
+            width: 100%;
+            height: 110px;
+            margin: 0;
+            padding: 0;
+            background-color: #3B5998;
+            border: 1px solid #000999;
+        }
+        #wrap img{
+            width: 225px;
+            height:55px;
+            padding:0;
+            margin:30px 0 0 300px;
+            float: left;
+        }
+        #wrap form{
+            color: white;
+            margin: 0 400px 0 0;
+            float: right;
+        }
+        #wrap form p{
+            color: lightgray;
+        }
+        input[type=password]{
+            height: 20px;
+        }
+        #content{
+            height: 730px;
+            float: left;
+            width: 100%;
+            background-color: #ECEEF5;
+        }
+        #content1{
+            color: #2d1152;
+            margin: 0 0 0 310px;
+            float: left;
+        }
+        #content2{
+            width: 600px;
+            height:95%;
+            float:left;
+        }
+        #content2 h1{
+            font-size: 3.0em;
+            margin: 0 0 0 50px;
+        }
+        #content2 p{
+            font-size: 1.3em;
+            margin: 0 0 0 52px;
+        }
+        #content2 h3{
+            font-size: 1.3em;
+            color: lightslategrey;
+        }
+        #loginwrap{
+            margin:0 0 0 52px;
+        }
+        #emailwrap{
+            margin:10px 0 0 52px;
+        }
+        #pwdwrap{
+            margin:10px 0 0 52px;
+        }
+        #content2 input::placeholder {
+            color: gray;
+            font-size: 1.5em;
+        }
+        #loginwrap input[type=text]{
+            height: 40px;
+            width: 230px;
+            border-radius: 7px;
+            border: 1px solid lightgray;
+        }
+        #emailwrap input[type=text]{
+            height: 40px;
+            width: 470px;
+            border-radius: 7px;
+            border: 1px solid lightgray;
+        }
+        #pwdwrap input[type=password]{
+            height: 40px;
+            width: 470px;
+            border-radius: 7px;
+            border: 1px solid lightgray;
+        }
+        #birthday{
+            margin: 0 0 0 52px;
+        }
+        select{
+            float:left;
+            height: 40px;
+            width: 70px;
+            border: 1px solid lightgray;
+        }
+        #genderwrap{
+            float:left;
+            font-size:1.5em;
+        }
+        #document p{
+            font-size:0.9em;
+            margin:0;
+            color:gray;
+        }
+        #signin{
+            margin:30px 0 0 0 ;
+            height: 40px;
+            width: 200px;
+            text-align: center;
+            font-size: 1.4em;
+            font-weight: bold;
+            background-color:forestgreen;
+            border: 1px solid lightgray;
+            border-radius: 7px;
+        }
+        #signin a{
+            color: white;
+            text-decoration:none;
+        }
+        #page p{
+            font-size:1.0em;
+            font-weight: bold;
+            margin:0;
+            color:gray;
+        }
+        #footer{
+            margin: 0;
+            float: left;
+            height: 150px;
+            width:100%;
+            color: #3B5998;
+        }
+        #lan{
+            text-align: center;
+            width:50%;
+            height:50px;
+            margin: 0 auto;
+            border-bottom: 1px solid #cccccc;
+        }
+        #menu{
+            text-align: center;
+            width:53%;
+            height: 100px;
+            margin:0 auto;
+        }
+        #menu span{
+            float:left;
+        }
+        #footer p{
+            margin: 0 0 0 300px;
+            color: #3e3e3e;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="wrap">
+            <img src="facebook%20logo.jpg"><a href="http://www.facebook.com" target="_self"></a>
+            <form action="#" method="get">
+                <div style="float: left; margin:15px;"><div>이메일 또는 휴대폰</div><input type="password" name="uname"/></div>
+                <div style="float: left; margin:15px;">비밀번호 <br/><input type="password" name="upw"/></div>
+                <p style="margin: 0 0 0 220px;">계정을 잊으셨나요?</p>
+            </form>
+
+        </div>
+    </header>
+    <div id="content">
+        <div id="content1">
+            <br/>
+            <h2>facebook에서 전세계에 있는 친구, 가족, 지인들과 <br/>함께 이야기를 나눠보세요.</h2>
+            <img src="image1.png">
+        </div>
+        <div id="content2">
+            <br/>
+            <h1>가입하기</h1>
+            <p>빠르고 쉽습니다.</p><br/>
+            <div id="loginwrap">
+                <input type="text" name="lastname" placeholder="성(性)"/>
+                <input type="text" name="firstname" placeholder="이름(성은 제외)"/>
+            </div>
+            <div id="emailwrap">
+                <input type="text" name="email" placeholder="휴대폰 번호 또는 이메일">
+            </div>
+            <div id="pwdwrap">
+                <input type="password" name="password" placeholder="새 비밀번호">
+            </div>
+            <div id="birthday">
+                <h3>생일</h3>
+                <select name="year">
+                    <option value="">1995</option>
+                    <option value="1990">1990</option>
+                    <option value="1991">1991</option>
+                    <option value="1992">1992</option>
+                    <option value="1993">1993</option>
+                    <option value="1994">1994</option>
+                    <option value="1995">1995</option>
+                    <option value="1996">1996</option>
+                    <option value="1997">1997</option>
+                    <option value="1998">1998</option>
+                    <option value="1999">1999</option>
+                    <option value="2000">2000</option>
+                </select>
+                <select name="month">
+                    <option value="">7월</option>
+                    <option value="1월">1월</option>
+                    <option value="2월">2월</option>
+                    <option value="3월">3월</option>
+                    <option value="4월">4월</option>
+                    <option value="5월">5월</option>
+                    <option value="6월">6월</option>
+                    <option value="7월">7월</option>
+                    <option value="8월">8월</option>
+                    <option value="9월">9월</option>
+                    <option value="10월">10월</option>
+                    <option value="11월">11월</option>
+                    <option value="12월">12월</option>
+                </select>
+                <select name="day">
+                    <option value="">6</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <br/>
+                <h3>성별</h3>
+                <div id="genderwrap">
+                    <input type="radio" name="gender" value="w">여성
+                    <input type="radio" name="gender" value="m">남성
+                    <input type="radio" name="gender" value="other">직접지정
+                </div>
+                <br/>
+                <br/>
+                <div id="document">
+                    <p>가입하기 버튼을 클릭하면 Facebook의 약관, 데이터 정책 및 쿠</p>
+                    <p>키 정책에 동의하게 됩니다. Facebook으로부터 SMS 알림을 받</p>
+                    <p>을 수 있으며 알림은 언제든지 옵트 아웃할 수 있습니다.</p>
+                </div>
+                <div id="signin"><a href="#">가입하기</a></div>
+                <div id="page">
+                    <br/><br/>
+                    <p>유명인, 밴드, 비즈니스를 위한 페이지 만들기</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="footer">
+        <div id="lan">
+            <br/>
+            <span>한국어 English (US) Tiếng Việt Bahasa Indonesia ภาษาไทย Español 中文(简体) 日本語 Português (Brasil) Français (France) Deutsch</span>
+
+        </div>
+        <div id="menu">
+            <br/>
+            <span>가입하기  로그인  Messenger  Facebook Lite  Watch  사람  페이지  페이지 카테고리  장소  게임  위치  Marketplace  Facebook 페이  그룹  Oculus</span>
+            <span>Portal Instagram 지역 기부 캠페인 서비스 회사소개 광고 만들기 페이지 만들기 개발자 채용 정보 개인정보처리방침 쿠키 AdChoices</span>
+            <span>이용 약관 고객 센터</span>
+        </div>
+        <p>Facebook © 2020</p>
+    </div>
+</body>
+</html>

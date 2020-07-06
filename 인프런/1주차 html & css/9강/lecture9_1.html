@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #wrap{
+            width:800px;
+            margin:0 auto;
+        }
+        #header{
+            border-bottom:1px solid #cccccc;
+        }
+        #history2:first-letter, #history1:first-letter{
+            font-size:2em;
+        }
+        #history2:first-line, #history1:first-line{
+            font-weight:bold;
+            color:#2160d1;
+        }
+        #footer ul{
+            overflow:hidden;
+            border:2px solid #cccccc;
+        }
+        #footer ul li{
+            list-style:none;
+            float:left; padding:20px;
+        }
+        #content p:first-child::selection{
+            background-color: blue;
+            color:yellow;
+        }
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <div id="header">
+        <h1>설립개요</h1>
+    </div>
+    <div id="content">
+        <p>중소기업 지원업무의 전문성과 효율성을~</p>
+        <p id="history2">2014 04월 09일<br/>서울산업진흥원 사명변경~</p>
+        <p id="history1">2013 01월 12일<br/>다누리 시민청 개관 05월 09일 꿈꾸는청년가게~</p>
+    </div>
+    <div id="footer">
+        <ul>
+            <li><img src=""></li>
+            <li><img src=""></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
