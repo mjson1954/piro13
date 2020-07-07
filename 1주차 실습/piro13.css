@@ -1,0 +1,121 @@
+@import './실습 3.css';
+
+:root{
+    --main-border: 1px solid var(--main-color);
+    --main-color: lightgray;
+}
+
+.header_container{
+    padding:0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: var(--main-border);
+}
+.header{
+    position: sticky;
+    background-color: white;
+    top: 0;
+}
+.header_icon{
+    font-size:1.5rem;
+}
+.profile{
+    display: flex;
+    margin: 1rem 1rem;
+}
+.profile_left > img{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 100%;
+    border: var(--main-border);
+    padding: 2px;
+    margin-right: 2rem;
+}
+.profile_right{
+    width: 100%;
+}
+.profile_right > button{
+    width: 100%;
+    background-color: white;
+    border: var(--main-border);
+    border-radius: 5px;
+    margin-top:0.5rem;
+}
+.description{
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.description > span{
+    margin-bottom: 0.5rem;
+}
+.story_container{
+    padding: 0 1rem;
+    display: flex;
+    overflow: scroll;
+    border-bottom: var(--main-border);
+}
+.story_content{
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.story_container::-webkit-scrollbar{
+    display: none;
+}
+.story_image > img{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 100%;
+    border: var(--main-border);
+    padding: 2px;
+}
+.status_container{
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    border: var(--main-border);
+}
+.status_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.status_number{
+    font-weight: bold;
+}
+.content_container{
+    display: grid;
+    grid-template: 1fr 1fr 1fr/1fr 1fr 1fr;
+    grid-gap: 3px;
+}
+.content__photo > img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.footer{
+    position: sticky;
+    width: 100%;
+    bottom: 0;
+    background-color: white;
+}
+.footer_container{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.footer_icon{
+    font-size: 1.5rem;
+}
+.footer_image>img{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+    border: var(--main-border);
+    padding: 1px;
+}
+

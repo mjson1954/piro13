@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- 부트스트랩 그리드 문서 -->
+    <!-- https://getbootstrap.com/docs/4.4/layout/grid/ -->
+    <style>
+      .row {
+        border: 2px white solid;
+        width: 100%;
+        margin: 0;
+      }
+      .row div {
+        text-align: center;
+        border: white 1px solid;
+      }
+      .header {
+        background-color: violet;
+        height: 60px;
+      }
+
+      .left {
+        width: 100%;
+        padding: 0;
+      }
+      .main-1 .left div {
+        height: 70px;
+        background-color: tomato;
+      }
+      .main-1 .right {
+        background-color: tan;
+        min-height: 430px;
+        padding: 0;
+      }
+
+      .main-2 .left,
+      .main-2 .right {
+        background-color: wheat;
+        min-height: 30px;
+      }
+      .main-2 .center {
+        background-color: aqua;
+        height: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="row header"></div>
+    <div class="row main-1">
+      <div class="col-lg-4 left">
+        <div class="row">
+          <div class="col-2 col-lg-12">1</div>
+          <div class="col-2 col-lg-12">2</div>
+          <div class="col-2 col-lg-12">3</div>
+          <div class="col-2 col-lg-12">4</div>
+          <div class="col-2 col-lg-12">5</div>
+          <div class="col-2 col-lg-12">6</div>
+        </div>
+      </div>
+      <div class="col-lg-8 right"></div>
+    </div>
+    <div class="row main-2">
+      <div class="col-md-1 left"></div>
+      <div class="col-md-10 center"></div>
+      <div class="col-md-1 right"></div>
+    </div>
+    <div class="row"></div>
+  </body>
+</html>

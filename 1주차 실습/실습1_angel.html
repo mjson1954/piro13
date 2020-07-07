@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>angel</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        nav{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width:100%;
+            height: 100px;
+            background-color:white;
+            float: left;
+            z-index:1;
+        }
+        nav a{
+            width:100%;
+            font-size:26px;
+            display: inline-block;
+            height:100px;
+            text-align: center;
+        }
+        .nav_item{
+            margin: 0 -4px 0 -4px;
+            position: relative;
+            float: left;
+            width: 20vw;
+            height: 100px;
+            display: inline-block;
+            border:1px solid black;
+            text-align: center;
+            font-size: 26px;
+        }
+        .nav_item a{
+            text-decoration: none;
+            color: black;
+            margin: 30px 0 0 0;
+        }
+        #content{
+            position: relative;
+            margin: 150px 0 0 0;
+        }
+        #content .center{
+            height: 800px;
+            width: 1000px;
+            margin: 0 auto;
+            border: 1px solid black;
+            background-color:white;
+        }
+        #content .center h1{
+            margin: 30px;
+            font-size: 5.0em;
+        }
+        #content .center p{
+            margin: 30px;
+            font-size: 1.5em;
+        }
+        #content .center img{
+            width: 100%;
+            height: 500px;
+        }
+        .angel_img{
+            margin:0 auto;
+            width: 90%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav_item">
+                <a href="1#" class="nav_link">HTML</a>
+            </div>
+            <div class="nav_item">
+                <a href="2#" class="nav_link">CSS</a>
+            </div>
+            <div class="nav_item">
+                <a href="3#" class="nav_link">PYTHON</a>
+            </div>
+            <div class="nav_item">
+                <a href="4#" class="nav_link">DJANGO</a>
+            </div>
+            <div class="nav_item">
+                <a href="5#" class="nav_link">TEAM_PROJECT</a>
+            </div>
+        </nav>
+    </header>
+    <div id="content">
+        <div class="center">
+            <div id="content1">
+                <h1>1. HTML</h1>
+                <p>1주차에는 HTML을 배웁니다.</p>
+                <div class="angel_img">
+                    <img src="angels.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="center">
+            <div id="content2">
+                <h1>2. CSS</h1>
+                <p>HTML과 더불어 CSS, 비둘기 두마리를 데려온 사람이 나타납니다.</p>
+                <div class="angel_img">
+                    <img src="angels.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="center">
+            <div id="content3">
+                <h1>3. PYTHON</h1>
+                <p>2주차에는 PYTHON을 배웁니다.</p>
+                <div class="angel_img">
+                    <img src="angels.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+</body>
+</html>
