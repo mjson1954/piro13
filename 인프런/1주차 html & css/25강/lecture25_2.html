@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="prefixfree.min.js"></script>
+    <style>
+
+        * { margin:0; padding:0; }
+        li { list-style:none }
+        a { text-decoration:none; }
+
+        #wrap { width:800px; height:500px; margin:0 auto; }
+        #wrap #lnb ul {  }
+        #wrap #lnb ul li { float:left; }
+        #wrap #lnb ul li a { display:block; padding:5px 64px; background-color:#66b57b; color:#ffffff; }
+
+        #wrap #lnb ul li:nth-child(1) a:hover { background-color:#35864a;
+                                                transform:scale(2); transform-origin:50% 0; z-index:9999; }
+
+        #wrap #lnb ul li:nth-child(2) a:hover { background-color:#35864a;
+                                                transform:rotate(5deg); z-index:9999; }
+
+        #wrap #lnb ul li:nth-child(3) a:hover { background-color:#35864a;
+                                                transform:skewX(-15deg); z-index:9999; }
+
+        #wrap #lnb ul li:nth-child(4) a:hover { background-color:#35864a;
+                                                transform:scale(2) rotate(5deg) skewX(-15deg);
+                                                transform-origin:50% 0; z-index:9999; }
+
+        #wrap #lnb ul li:nth-child(5) a:hover {
+            background-color:#35864a;
+            animation-name:ani; animation-duration:2s;  animation-iteration-count:infinite; animation-direction:alternate;
+        }
+
+        @keyframes ani {
+            from {
+
+            }
+
+            to {
+                background-color:#ffff00; transform:scale(2) rotate(5deg) skewX(-15deg); transform-origin:50% 0; z-index:9999;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div id="wrap">
+        <div id="lnb">
+            <ul>
+                <li><a href="#none" alt="">lnb1</a></li>
+                <li><a href="#none" alt="">lnb2</a></li>
+                <li><a href="#none" alt="">lnb3</a></li>
+                <li><a href="#none" alt="">lnb4</a></li>
+                <li><a href="#none" alt="">lnb5</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>

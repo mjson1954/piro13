@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b288672-c80d-4567-a33e-ffac3b6b0d4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,8 +12,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -34,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/1주차 실습" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/인프런/1주차 html &amp; css/28강" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -45,18 +44,19 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2020_4학년\피로그래밍\인프런\1주차 html &amp; css\28강" />
+      <recent name="D:\2020_4학년\피로그래밍\인프런\1주차 html &amp; css\26강" />
+      <recent name="D:\2020_4학년\피로그래밍\인프런\1주차 html &amp; css\25강" />
+      <recent name="D:\2020_4학년\피로그래밍\인프런\1주차 html &amp; css\24강" />
+      <recent name="D:\2020_4학년\피로그래밍\1주차 실습" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\2020_4학년\피로그래밍\인프런\1주차 html &amp; css\17강" />
       <recent name="D:\2020_4학년\피로그래밍" />
       <recent name="D:\2020_4학년\피로그래밍\인프런\1주차 html &amp; css\14강" />
       <recent name="D:\2020_4학년\피로그래밍\인프런\4강" />
       <recent name="D:\2020_4학년\피로그래밍\인프런" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\2020_4학년\피로그래밍\1주차 실습" />
-      <recent name="D:\2020_4학년\피로그래밍\인프런\1주차 html &amp; css\22강" />
-      <recent name="D:\2020_4학년\피로그래밍\인프런\1주차 html &amp; css\20강" />
-      <recent name="D:\2020_4학년\피로그래밍\인프런\1주차 html &amp; css\17강" />
     </key>
   </component>
   <component name="RunManager">
@@ -87,7 +87,8 @@
       <workItem from="1594011463191" duration="2609000" />
       <workItem from="1594034717358" duration="10204000" />
       <workItem from="1594083328462" duration="91000" />
-      <workItem from="1594083603877" duration="15855000" />
+      <workItem from="1594083603877" duration="16461000" />
+      <workItem from="1594123309925" duration="3506000" />
     </task>
     <servers />
   </component>

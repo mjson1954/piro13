@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--
+    <meta charset="utf-8" name="viewport" content="width=device-width,
+          initial-scale=1.0, minimum-scale=1.0,user-scalable=no" />
+    -->
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title></title>
+
+    <style>
+
+        li { list-style:none; }
+
+        #nav {  }
+        #nav #gnb {  }
+        #nav #gnb ul { overflow:hidden; }
+        #nav #gnb ul li { float:left; width:100px; height:50px; margin-right:5px; text-align:center; background-color:#a0b03b;
+                          transition-property:background-color, height;
+                          transition-duration:5s, 2s; }
+
+        #nav #gnb ul li:nth-child(1) { transition-delay:2s; }
+        #nav #gnb ul li:nth-child(2) { transition-timing-function:ease-in; }
+        #nav #gnb ul li:nth-child(3) { transition-timing-function:ease-out; }
+
+        #nav #gnb ul li:nth-child(1):hover { height:250px; background-color:#353a17; color:#ffffff; }
+        #nav #gnb ul li:nth-child(2):hover { height:250px; background-color:#173b37; color:#ffffff; }
+        #nav #gnb ul li:nth-child(3):hover { height:250px; background-color:#17173b; color:#ffffff; }
+        #nav #gnb ul li:nth-child(4):hover { height:250px; background-color:#3b172b; color:#ffffff; }
+        #nav #gnb ul li:nth-child(5):hover { height:250px; background-color:#3b1717; color:#ffffff; }
+
+    </style>
+
+</head>
+<body>
+
+   <div id="nav">
+       <div id="gnb">
+           <ul>
+               <li>GNB_01</li>
+               <li>GNB_02</li>
+               <li>GNB_03</li>
+               <li>GNB_04</li>
+               <li>GNB_05</li>
+           </ul>
+       </div>
+   </div>
+
+</body>
+</html>

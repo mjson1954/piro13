@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="grid.css" />
+
+    <style>
+        *{ margin:0; padding:0; }
+        li { list-style:none; }
+        a { text-decoration:none; color:#444444; }
+        .grid_6, .grid_4, .grid_3 { margin:5px 0; }
+
+        .container_12 { border:1px solid #cccccc; }
+        .header { margin:0; }
+        .header > .gnb { width:600px; margin:0 auto; border-bottom:1px solid #cccccc; }
+        .header > .gnb > ul { overflow:hidden; padding:10px; }
+        .header > .gnb > ul > li { float:left; width:20%;
+                                   font-size:1.5em; text-align:center;
+                                   border-right:1px dashed #cccccc; border-left:1px dashed #cccccc; box-sizing:border-box; }
+        .header > .logo div { margin:30px auto; width:300px; height:100px; line-height:100px; border:1px solid #cccccc; text-align:center; }
+
+        .section1 div:nth-child(1){ margin-right:20px; }
+        .grid_6 { height:200px; background-color:#cccccc; }
+
+        .section2 div:nth-child(1), .section2 div:nth-child(2) { margin-right:20px; }
+        .grid_4 { height:100px; background-color:#cccccc; }
+
+        .section3 div:nth-child(1), .section3 div:nth-child(2), .section3 div:nth-child(3) { margin-right:20px; }
+        .grid_3 { height:100px; background-color:#cccccc; }
+
+        .footer { height:100px; border-top:1px solid #cccccc; }
+        .footer div { text-align:center; height:100px; line-height:100px; }
+    </style>
+
+</head>
+<body>
+
+    <div class="container_12 wrap">
+
+        <div class="grid_12 header">
+            <div class="gnb">
+                <ul>
+                    <li><a href="#none">GNB1</a></li>
+                    <li><a href="#none">GNB2</a></li>
+                    <li><a href="#none">GNB3</a></li>
+                    <li><a href="#none">GNB4</a></li>
+                    <li><a href="#none">GNB5</a></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <div>LOGO</div>
+            </div>
+        </div>
+        <div class="clear"></div>
+
+        <div class="section1">
+            <div class="grid_6">section1</div>
+            <div class="grid_6">section1</div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="section2">
+            <div class="grid_4">section2</div>
+            <div class="grid_4">section2</div>
+            <div class="grid_4">section2</div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="section3">
+            <div class="grid_3">section3</div>
+            <div class="grid_3">section3</div>
+            <div class="grid_3">section3</div>
+            <div class="grid_3">section3</div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="grid_12 footer">
+            <div>office information</div>
+        </div>
+        <div class="clear"></div>
+
+
+    </div>
+
+</body>
+</html>
