@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+
+        * { margin:0; padding:0; }
+        li { list-style:none; }
+        a { text-decoration:none; color:#444444; }
+
+        .container_12 { width:960px; margin:0 auto; border:1px solid #cccccc; }
+        .row { overflow:hidden; margin-left:10px; margin-right:10px; }
+
+        .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6,
+        .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12  { float:left; }
+
+        .grid_1 { width:60px; }
+        .grid_2 { width:140px; }
+        .grid_3 { width:220px; }
+        .grid_4 { width:300px; }
+        .grid_5 { width:380px; }
+        .grid_6 { width:460px; }
+        .grid_7 { width:540px; }
+        .grid_8 { width:620px; }
+        .grid_9 { width:700px; }
+        .grid_10 { width:780px; }
+        .grid_11 { width:860px; }
+        .grid_12 { width:940px; }
+
+        .header { margin:0; }
+        .header > .gnb { width:600px; margin:0 auto; border-bottom:1px solid #cccccc; }
+        .header > .gnb > ul { overflow:hidden; padding:10px; }
+        .header > .gnb > ul > li { float:left; width:20%;
+                                   font-size:1.5em; text-align:center;
+                                   border-right:1px dashed #cccccc; border-left:1px dashed #cccccc; box-sizing:border-box; }
+        .header > .logo div { margin:30px auto; width:300px; height:100px; line-height:100px; border:1px solid #cccccc; text-align:center; }
+
+        .section1, .section2, .section3 { margin:5px 0; }
+
+        .section1 div:nth-child(1){ margin-right:20px; }
+        .grid_6 { height:200px; background-color:#cccccc; }
+
+        .section2 div:nth-child(1), .section2 div:nth-child(2) { margin-right:20px; }
+        .grid_4 { height:100px; background-color:#cccccc; }
+
+        .section3 div:nth-child(1), .section3 div:nth-child(2), .section3 div:nth-child(3) { margin-right:20px; }
+        .grid_3 { height:100px; background-color:#cccccc; }
+
+        .footer { height:100px; border-top:1px solid #cccccc; }
+        .footer div { text-align:center; height:100px; line-height:100px; }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="container_12">
+
+        <div class="row">
+            <div class="grid_12 header">
+                <div class="gnb">
+                    <ul>
+                        <li><a href="#none">GNB1</a></li>
+                        <li><a href="#none">GNB2</a></li>
+                        <li><a href="#none">GNB3</a></li>
+                        <li><a href="#none">GNB4</a></li>
+                        <li><a href="#none">GNB5</a></li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <div>LOGO</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row section1">
+            <div class="grid_6">section1</div>
+            <div class="grid_6">section1</div>
+        </div>
+
+        <div class="row section2">
+            <div class="grid_4">section2</div>
+            <div class="grid_4">section2</div>
+            <div class="grid_4">section2</div>
+        </div>
+
+        <div class="row section3">
+            <div class="grid_3">section3</div>
+            <div class="grid_3">section3</div>
+            <div class="grid_3">section3</div>
+            <div class="grid_3">section3</div>
+        </div>
+
+        <div class="row">
+            <div class="grid_12 footer">
+                <div>office information</div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</body>
+</html>

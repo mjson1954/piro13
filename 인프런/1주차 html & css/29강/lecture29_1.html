@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+
+        * { margin:0; padding:0; }
+        li { list-style:none; }
+        a { text-decoration:none; color:#444444; }
+
+        .container_12 {  }
+        .row { overflow:hidden; width:100%; }
+
+        .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6,
+        .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12  { float:left; margin-left:2%; }
+        .grid_1:first-child, .grid_2:first-child, .grid_3:first-child, .grid_4:first-child, .grid_5:first-child, .grid_6:first-child,
+        .grid_7:first-child, .grid_8:first-child, .grid_9:first-child, .grid_10:first-child, .grid_11:first-child, .grid_12:first-child  { margin-left:1%; }
+
+        .grid_1 { width:6.3%; }
+        .grid_2 { width:14.6%; }
+        .grid_3 { width:22.9%; }
+        .grid_4 { width:31.2%; }
+        .grid_5 { width:39.5%; }
+        .grid_6 { width:47.8%; }
+        .grid_7 { width:56.1%; }
+        .grid_8 { width:64.4%; }
+        .grid_9 { width:72.7%; }
+        .grid_10 { width:81%; }
+        .grid_11 { width:89.3%; }
+        .grid_12 { width:100%; }
+
+        .header { margin:0; }
+        .header > .gnb { width:60%; margin:0 auto; border-bottom:1px solid #cccccc; }
+        .header > .gnb > ul { overflow:hidden; padding:10px; }
+        .header > .gnb > ul > li { float:left; width:20%;
+                                   font-size:1.5em; text-align:center;
+                                   border-right:1px dashed #cccccc; border-left:1px dashed #cccccc; box-sizing:border-box; }
+        .header > .logo div { margin:30px auto; width:300px; height:100px; line-height:100px; border:1px solid #cccccc; text-align:center; }
+
+        .section1, .section2, .section3 { margin:5px 0; }
+
+        .grid_6 { height:200px; background-color:#cccccc; }
+
+        .grid_4, .grid_3 { height:100px; background-color:#cccccc; }
+
+        .footer { height:100px; border-top:1px solid #cccccc; }
+        .footer div { text-align:center; height:100px; line-height:100px; }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="container_12">
+
+        <div class="row">
+            <div class="grid_12 header">
+                <div class="gnb">
+                    <ul>
+                        <li><a href="#none">GNB1</a></li>
+                        <li><a href="#none">GNB2</a></li>
+                        <li><a href="#none">GNB3</a></li>
+                        <li><a href="#none">GNB4</a></li>
+                        <li><a href="#none">GNB5</a></li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <div>LOGO</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row section1">
+            <div class="grid_6">section1</div>
+            <div class="grid_6">section1</div>
+        </div>
+
+        <div class="row section2">
+            <div class="grid_4">section2</div>
+            <div class="grid_4">section2</div>
+            <div class="grid_4">section2</div>
+        </div>
+
+        <div class="row section3">
+            <div class="grid_3">section3</div>
+            <div class="grid_3">section3</div>
+            <div class="grid_3">section3</div>
+            <div class="grid_3">section3</div>
+        </div>
+
+        <div class="row">
+            <div class="grid_12 footer">
+                <div>office information</div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</body>
+</html>
