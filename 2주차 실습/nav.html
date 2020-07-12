@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>13기 화이팅</title>
+    <style>
+      #main,
+      #sub {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      #sub {
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+      }
+      #main > li {
+        float: left;
+        border: 1px solid black;
+      }
+
+      #main > li > a {
+        display: block;
+        padding: 8px 16px;
+      }
+      #main > li:hover #sub {
+        opacity: 1;
+        visibility: visible;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul id="main">
+        <li><a href="#">p.rogramming</a></li>
+        <li>
+          <a href="#">회장김성익</a>
+          <ul id="sub">
+            <li><a href="#">그는신인가?</a></li>
+            <li><a href="#">존잘스윗완벽남</a></li>
+            <li>
+              <a href="#">멋지다</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">부회장최수현</a>
+          <ul id="sub">
+            <li><a href="#">리더란</a></li>
+            <li><a href="#">팔로워</a></li>
+            <li><a href="#">…</a></li>
+          </ul>
+        </li>
+        <li><a href="#">수고하셨습니다</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>

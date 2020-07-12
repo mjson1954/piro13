@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://kit.fontawesome.com/7d6a50a6b2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+        * {
+
+            padding: 0px;
+            margin: 0;
+        }
+
+        nav {
+            background-color: #3e3e3e;
+            width: 100%;
+            height: 50px;
+        }
+
+        #content {
+            border: none;
+            float: left;
+        }
+
+        nav h6 {
+            width: 70px;
+            margin-top: 12px;
+            margin-left: 20px;
+            color: white;
+            float: left;
+        }
+
+        nav ul {
+            border: 1px solid #3e3e3e;
+            list-style: none;
+        }
+
+        nav li {
+            float: left;
+            margin: 10px;
+            color: white;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: lightslategray;
+            font-size: 0.8em;
+        }
+
+        .menubar {
+            margin-top: 15px;
+            float: right;
+        }
+
+        .menubar i {
+            color: white;
+            height: 30px;
+            width: 30px;
+            float: right;
+        }
+
+        nav a:hover {
+            text-decoration: none;
+            color: white;
+        }
+
+        @media screen and (max-width: 1000px) {
+            nav ul {
+                display: none;
+            }
+
+        }
+
+        @media screen and (min-width: 1000px) {
+            .menubar {
+                display: none;
+            }
+        }
+
+        .text_box {
+            border: 0.5px solid gray;
+            margin: 10px auto;
+            background-color: lightgray;
+            border-radius: 3px;
+            text-align: center;
+            height: 170px;
+        }
+
+        .row {
+            border: none;
+        }
+
+        h1 {
+            margin-top: 15px;
+            border: none;
+        }
+
+        h2 {
+            margin-left: 8px;
+            border: none;
+        }
+
+        p {
+            margin: 0 10px;
+            border: none;
+        }
+
+        button {
+            height: 35px;
+            width: 130px;
+            border-radius: 3px;
+            margin-top: 10px;
+            margin-bottom: 5px;
+            margin-left: 8px;
+            background-color: white;
+            border: 1px solid gray;
+            color: gray;
+        }
+
+        .list {
+            float: left;
+            width: 130px;
+            border: none;
+            /*border: 1px solid red;*/
+            margin: 10px auto;
+        }
+
+        .list > a {
+            border: none;
+        }
+
+        .list > a > div {
+            /*margin: 0 auto;*/
+            width: 100%;
+            height: 40px;
+            color: royalblue;
+            border: 1px solid lightgray;
+        }
+
+        .list div:hover {
+            text-decoration: none;
+            background-color: royalblue;
+            color: white;
+        }
+
+        footer {
+            margin-top: 800px;
+            border: none;
+        }
+
+        footer h6 {
+            border: none;
+            margin-left: 50px;
+        }
+
+        #sub {
+            margin-top: 15px;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        #sub {
+            position: absolute;
+            opacity: 1;
+            visibility: hidden;
+            z-index: 1;
+            background-color: white;
+            /*border: 5px solid red;*/
+        }
+
+        #main > li:hover #sub {
+            opacity: 1;
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+<div id="header">
+    <nav>
+        <h6>navbar</h6>
+        <ul id="main">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Dropdown link</a>
+                <ul id="sub">
+                    <li><a href="#">우왕</a></li>
+                    <li><a href="#">피로그래밍</a></li>
+                    <li><a href="#">화이팅</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="menubar">
+            <a href=""><i class="fas fa-bars"></i></a>
+        </div>
+    </nav>
+</div>
+<div id="content" style="margin-left: 30px">
+    <div class="col-lg-8 col-md-10 col-sm-12" style="float: left; border: none;">
+        <div class="text_box">
+            <h1>Young</h1>
+            <p>We both know I go too far like when I wrecked your car And almost fought your father when he pushed me in
+                the yard And all those nights we snuck out, like to meet up at the bar Don't worry, my love, we're
+                learning to love But it's hard when you're young</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-sm-12" style="border: none;">
+                <h2>Paris</h2>
+                <p>We were staying in Paris To get away from your parents And I thought, "Wow If I could take this in a
+                    shot
+                    right now I don't think that we could work this out" Out on the terrace I don't know if it's fair
+                    but I
+                    thought</p>
+                <button>View details >></button>
+            </div>
+            <div class="col-lg-4 col-sm-12" style="border: none;">
+                <h2>Paris</h2>
+                <p>We were staying in Paris To get away from your parents And I thought, "Wow If I could take this in a
+                    shot
+                    right now I don't think that we could work this out" Out on the terrace I don't know if it's fair
+                    but I
+                    thought</p>
+                <button>View details >></button>
+            </div>
+            <div class="col-lg-4 col-sm-12" style="border: none;">
+                <h2>Paris</h2>
+                <p>We were staying in Paris To get away from your parents And I thought, "Wow If I could take this in a
+                    shot
+                    right now I don't think that we could work this out" Out on the terrace I don't know if it's fair
+                    but I
+                    thought</p>
+                <button>View details >></button>
+            </div>
+            <div class="col-lg-4 col-sm-12" style="border: none;">
+                <h2>Paris</h2>
+                <p>We were staying in Paris To get away from your parents And I thought, "Wow If I could take this in a
+                    shot
+                    right now I don't think that we could work this out" Out on the terrace I don't know if it's fair
+                    but I
+                    thought</p>
+                <button>View details >></button>
+            </div>
+            <div class="col-lg-4 col-sm-12" style="border: none;">
+                <h2>Paris</h2>
+                <p>We were staying in Paris To get away from your parents And I thought, "Wow If I could take this in a
+                    shot
+                    right now I don't think that we could work this out" Out on the terrace I don't know if it's fair
+                    but I
+                    thought</p>
+                <button>View details >></button>
+            </div>
+            <div class="col-lg-4 col-sm-12" style="border: none;">
+                <h2>Paris</h2>
+                <p>We were staying in Paris To get away from your parents And I thought, "Wow If I could take this in a
+                    shot
+                    right now I don't think that we could work this out" Out on the terrace I don't know if it's fair
+                    but I
+                    thought</p>
+                <button>View details >></button>
+            </div>
+        </div>
+    </div>
+    <div class="list">
+        <a href="">
+            <div class="col-lg-12 col-md-6 col-sm-12">List</div>
+        </a>
+        <a href="">
+            <div class="col-lg-12 col-md-6 col-sm-12">List</div>
+        </a>
+        <a href="">
+            <div class="col-lg-12 col-md-6 col-sm-12">List</div>
+        </a>
+        <a href="">
+            <div class="col-lg-12 col-md-6 col-sm-12">List</div>
+        </a>
+        <a href="">
+            <div class="col-lg-12 col-md-6 col-sm-12">List</div>
+        </a>
+        <a href="">
+            <div class="col-lg-12 col-md-6 col-sm-12">List</div>
+        </a>
+        <a href="">
+            <div class="col-lg-12 col-md-6 col-sm-12">List</div>
+        </a>
+        <a href="">
+            <div class="col-lg-12 col-md-6 col-sm-12">List</div>
+        </a>
+        <a href="">
+            <div class="col-lg-12 col-md-6 col-sm-12">List</div>
+        </a>
+        <a href="">
+            <div class="col-lg-12 col-md-6 col-sm-12">List</div>
+        </a>
+
+    </div>
+
+</div>
+</div>
+<footer>
+    <div id="footer" style="border: none">
+        <h6>© 2019 Pirogramming, Inc.</h6>
+    </div>
+</footer>
+</body>
+</html>
